@@ -1,0 +1,23 @@
+{
+  "name": "markdown-metadata-bs",
+  "version": "0.1.0",
+  "main": "src/MarkdownMetadata.bs.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elcr/markdown-metadata-bs.git"
+  },
+  "author": "elcr",
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.9",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "build": "bsb -make-world -clean-world",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bs-platform": "^5.0.6",
+    "markdown-metadata": "ssh://git@github.com:elcr/markdown-metadata-ts.git"
+  }
+}

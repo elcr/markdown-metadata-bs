@@ -1,0 +1,32 @@
+{
+    "name": "markdown-metadata-bs",
+    "bsc-flags": ["-bs-super-errors"],
+    "reason": {
+      "react-jsx": 3
+    },
+    "sources": [
+      {
+        "dir": "src",
+        "subdirs": true
+      },
+      {
+        "dir": "tests",
+        "subdirs": true,
+        "type": "dev"
+      }
+    ],
+    "package-specs": [
+      {
+        "module": "commonjs",
+        "in-source": true
+      }
+    ],
+    "suffix": ".bs.js",
+    "namespace": false,
+    "bs-dependencies": [],
+    "bs-dev-dependencies": [
+      "@glennsl/bs-jest"
+    ],
+    "ppx-flags": [],
+    "refmt": 3
+  }
