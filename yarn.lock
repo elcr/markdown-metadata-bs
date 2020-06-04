@@ -2182,9 +2182,9 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-"markdown-metadata@ssh://git@github.com:elcr/markdown-metadata-ts.git":
+"markdown-metadata@https://github.com/elcr/markdown-metadata-ts.git":
   version "0.1.0"
-  resolved "ssh://git@github.com:elcr/markdown-metadata-ts.git#ab9c726648fbe1dbda14a3a645de36663a87ba40"
+  resolved "https://github.com/elcr/markdown-metadata-ts.git#35cd0816c19fa8bba45f27983ab81def0a124792"
 
 merge-stream@^2.0.0:
   version "2.0.0"

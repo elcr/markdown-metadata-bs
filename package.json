@@ -10,14 +10,14 @@
   "license": "MIT",
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "bs-platform": "^5.0.6"
   },
   "scripts": {
     "build": "bsb -make-world -clean-world",
     "test": "jest"
   },
   "dependencies": {
-    "bs-platform": "^5.0.6",
-    "markdown-metadata": "ssh://git@github.com:elcr/markdown-metadata-ts.git"
+    "markdown-metadata": "https://github.com/elcr/markdown-metadata-ts.git"
   }
 }
